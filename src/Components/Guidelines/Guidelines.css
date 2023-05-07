@@ -1,0 +1,29 @@
+.guidelinesContainer
+{
+    padding: 1rem;
+}
+.guidelinesContainer>div{
+    padding: 1rem;
+    line-height: 1.7;
+}
+
+.guidelinesContainer ol{
+    padding-left: 1rem;
+}
+
+.guidelinesContainer>h3{
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    color: rgb(0, 49, 122);
+    /* padding: 1rem; */
+}
+
+.guidelinesContainer>a{
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+
+.guidelinesContainer>div>p>span{
+    font-weight: 600;
+}

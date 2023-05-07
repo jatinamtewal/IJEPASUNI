@@ -1,0 +1,36 @@
+.footer{
+    border-top: 2px solid black;
+    margin-top: 4rem;
+}
+
+
+.main{
+    display: flex;
+    margin-top: 2rem;
+    justify-content: space-around;
+}
+
+.main>div{
+    display: flex;
+    flex-direction: column;
+}
+
+.main>div>a{
+    text-decoration: none;
+}
+
+
+.lowerFooter{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+    padding:1rem;
+    border: 2px solid black;
+    
+}
+
+
+.lowerFooter div a{
+    text-decoration: none;
+    margin-right: 10px;
+}

@@ -1,0 +1,27 @@
+.editorialContainer{
+    padding: 1rem;
+}
+.editorialContainer>div{
+    padding:0.2rem 1rem;
+}
+
+.editorialContainer div span{
+    color: #007a7e;
+    font-style: italic;
+}
+
+.editorialContainer>div>p:nth-child(1){
+    /* color: blue; */
+    font-weight: 600;
+    /* margin-top: 1rem; */ 
+}
+
+.editorialContainer>h3{
+    margin-top: 2rem;
+}
+
+
+.editorialContainer>div>div>p:nth-child(1){
+    font-weight: 600;
+    margin-top: 10px;
+}

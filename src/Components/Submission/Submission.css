@@ -1,0 +1,35 @@
+.submissionContainer{
+    padding: 1rem;
+}
+
+.submissionContainer .form form{
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
+    margin:2rem auto;
+    background-color: rgba(201, 201, 201, 0.678);
+    padding: 2rem;
+    border-radius: 10px;
+    /* color: white; */
+}
+.submissionContainer .form form label{
+    margin: 5px 0;
+}
+
+.submissionContainer .form form input{
+    border-radius: 5px;
+    padding: 5px;
+    outline: none;
+}
+
+.submissionContainer .form form input[type=file]{
+    /* background-color: red; */
+    padding-bottom:15px;
+}
+
+
+.submissionContainer .form form input[type=submit]{
+    padding: 0.8rem;
+    background-color: black;
+    color: white;
+}

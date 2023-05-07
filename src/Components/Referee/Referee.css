@@ -1,0 +1,45 @@
+.refereeContainer{
+    padding: 1rem;
+}
+
+.refereeContainer>h4+h2{
+    padding: 2rem 0;
+}
+
+.refereeContainer .form form{
+    display: flex;
+    /* flex-direction: column; */
+    width: 90%;
+    margin:2rem auto;
+    background-color: rgba(201, 201, 201, 0.678);
+    padding: 4rem;
+    border-radius: 10px;
+    justify-content: space-evenly;
+    /* color: white; */
+}
+
+.refereeContainer .form form div{
+    display: flex;
+    flex-direction: column;
+}
+.refereeContainer .form form label{
+    margin:5px 0;
+}
+
+.refereeContainer .form form div input{
+    width: 22rem;
+    border-radius: 5px;
+    padding: 5px;
+    outline: none;
+}
+
+.refereeContainer .form form input[type=file]{
+    padding-bottom:15px;
+}
+
+.refereeContainer .form form input[type=submit]{
+    padding: 0.4rem 2rem;
+    width: 22rem;
+    background-color: black;
+    color: white;
+}

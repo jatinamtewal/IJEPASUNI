@@ -1,0 +1,21 @@
+.contactContainer{
+    padding: 1rem;
+}
+
+.contactContainer>h3{
+    margin-top: 2rem;
+}
+
+.contactContainer>div{
+    padding:0.2rem 1rem;
+}
+
+.contactContainer>div>p:nth-child(1){
+    font-weight: 600;
+}
+
+
+.contactContainer div span{
+    color: #660000;
+    font-style: italic;
+}
